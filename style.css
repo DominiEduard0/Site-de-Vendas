@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #000000;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0px 2px 8px black;
+}
+
+.header-li{
+  margin: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #5fe36a;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: #ffffff;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 130px auto 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item {
+  width: 22%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  height: 400px;
+  margin: 5px;
+}
+
+.item:hover {
+  transform: translateY(-10px);
+}
+
+.item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.item h3 {
+  margin: 25px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.item p {
+  margin: 5px 0 15px;
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  background-color: #5fe36a;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 92%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.item:hover .btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer {
+  background-color: #000000;
+  padding: 50px 20px;
+  height: 13vh;
+  box-shadow: 0px 0px 20px black;
+}
+
+.footerDiv {
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  width: 33%;
+  height: 16%;
+  margin-top: -5px;
+  margin-left: 30px;
+}
+
+.pFooter {
+  color: white;
+  margin-top: auto;
+  font-size: 25px;
+  margin-left: 6%;
+}
+
+.contatosFooter {
+  color: white;
+  margin: -20px 2px;
+  margin-left: 2%;
+  font-size: 20px;
+}
+
+.footerDiv2 {
+  position: relative;
+  display: flex;
+  margin: 19px;
+  margin-left: auto;
+}
+
+.img1{
+  height: 20px;
+  width: auto;
+  margin: 0px 2px;
+  padding: 9px 5px;
+  margin-left: 30px;
+}
+
+.SobreNos{
+  
+}
+
+.ProdutosDiv{
+
+}
